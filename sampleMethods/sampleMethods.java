@@ -8,12 +8,18 @@ public class sampleMethods {
     private String status;
 
     public void setStatus(String single){
-        status = "single";
+        status = "single "+"and serching";
     }
 
     public String getStatus(){
         return status;
     }
+
+    
+
+    /************************************************************/
+
+    
 }
 
 class Demo{
@@ -29,7 +35,7 @@ class Demo{
         // SampleMethods.printNames("Elkanah");
 
 
-        SampleMethods.setStatus("single");//calling the setStatus method.
-        System.out.println(SampleMethods.getStatus());
+        SampleMethods.setStatus("");//calling the setStatus method.
+        System.out.println(SampleMethods.getStatus());//calling the getters method.
     }
 }
